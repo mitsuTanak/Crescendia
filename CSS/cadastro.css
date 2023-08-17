@@ -4,11 +4,13 @@
     margin: 0;
 }
 
-/* Título */
-header h1{
-    color: #fff;
-    font-family: Ultra,sans-serif;
-
+/* BODY */
+body{
+    /* background-color: #F6F4EB; */
+    background: url(../assets/sound-waves.gif);
+    background-size: cover;
+    background-position: 100%;
+    
 }
 
 main{
@@ -16,4 +18,90 @@ main{
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+/* FORMULÁRIO DE LOGIN */
+
+/* Formulário */
+#cont_login{
+    margin-top: 75px;
+    margin-bottom: 50px;
+    background-color: #f6f4eb98;
+    height: 500px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+
+/* Título */
+#cont_login h1{
+    color: #000;
+    margin-top: 20px;
+    font-family: Ultra, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* SECTION DE INPUT */
+.input{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Inputs */
+.input input{
+    width: 95%;
+    height: 40px;
+    border: hidden;
+    border-radius: 50px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.input input:focus{
+    outline: none;
+}
+
+.input input:valid{
+    border-color: #1D5D9B;
+}
+
+.input input::-webkit-input-placeholder{
+    padding-left: 5px;
+    font-size: 16px;
+    color: gray;
+}
+
+/* BOTÃO DE LOGIN */
+.Login{
+    margin: auto;
+    background-color: #1D5D9B;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Ultra,sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+    
+}
+
+.Login:hover{
+    filter: grayscale(0.6);
+}
+
+.Login a{
+    text-decoration: none;
+    color: #fff;
 }
