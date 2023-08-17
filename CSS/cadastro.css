@@ -3,18 +3,20 @@ body{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
 	line-height: 1.7;
-	color: #ffeba7;
-	background-color: #1f2029;
-    background-image: url(../assets/sound-waves.gif);
+	color: #ADDEFF;
+	/* background-color: #1f2029; */
+    background: url(../assets/sound-waves.gif);
+    background-size: cover;
+    background-position: 100%;
   overflow: hidden;
   height: 100vh;
-  background: radial-gradient(ellipse at bottom, #1B2735 0%, #12141d 100%);
+  /* background: radial-gradient(ellipse at bottom, #1B2735 0%, #12141d 100%); */
 }
 a:hover {
 	text-decoration: none;
 }
 .link {
-  color: #ffeba7;
+  color: #ADDEFF;
 }
 .link:hover {
   color: #c4c3ca;
@@ -53,7 +55,7 @@ display: none;
   padding: 0;
   margin: 10px auto;
   cursor: pointer;
-  background-color: #ffeba7;
+  background-color: #ADDEFF;
 }
 .checkbox:checked + label:before,
 .checkbox:not(:checked) + label:before{
@@ -62,7 +64,7 @@ display: none;
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  color: #ffeba7;
+  color: #ADDEFF;
   background-color: #020305;
   font-family: 'unicons';
   content: '\eb4f';
@@ -174,12 +176,12 @@ display: none;
   display: -ms-inline-flexbox;
   display: inline-flex;
   align-items: center;
-  background-color: #ffeba7;
+  background-color: #ADDEFF;
   color: #000000;
 }
 .btn:hover{  
   background-color: #000000;
-  color: #ffeba7;
+  color: #ADDEFF;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
 }
 
