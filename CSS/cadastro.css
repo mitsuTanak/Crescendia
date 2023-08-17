@@ -1,0 +1,19 @@
+/* RESET DE CONFIG */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Título */
+header h1{
+    color: #fff;
+    font-family: Ultra,sans-serif;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
