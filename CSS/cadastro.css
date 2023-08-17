@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+
 /* BODY */
 body{
     /* background-color: #F6F4EB; */
@@ -37,7 +41,7 @@ main{
 
 /* Título */
 #cont_login h1{
-    color: #000;
+    color: #ffffff;
     margin-top: 20px;
     font-family: Ultra, sans-serif;
     text-align: center;
