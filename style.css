@@ -2,6 +2,10 @@ body {
     background-color: #240140;
 }
 
+.container {
+    color:#212529 ;
+}
+
 h1 {
     margin: 75px;
     padding: 25px;
