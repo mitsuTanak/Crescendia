@@ -10,6 +10,7 @@ body {
 .col {
     margin-bottom: 45px;
     padding: 50px;
+    
 }
 
 .col:hover {
@@ -20,6 +21,9 @@ body {
 .card {
     width: 190px;
     height: 190px;
+    background-color: rgba(0, 0, 0, 0.518);
+    color: white;
+    font-family: sans-serif;
 }
 
 .card-body .card-text .card-footer {
@@ -41,3 +45,36 @@ h1 {
     background-color: aqua;
     padding: 15px;
 }
+
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+  }
