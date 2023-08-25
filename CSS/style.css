@@ -18,6 +18,16 @@ body {
   
 }
 
+.btn {
+  background-color: #976df2;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #171717;
+  cursor: pointer;
+  transition: .5s;
+}
+
 
 
 .wrapper {
