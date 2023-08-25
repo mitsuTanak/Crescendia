@@ -8,6 +8,10 @@ body {
   background-color: #240140;
 }
 
+form {
+  width: 500px;
+  padding-bottom: 10px;
+}
 
 .playlists{
 
@@ -18,6 +22,19 @@ body {
   
 }
 
+.btn {
+  background-color: #976df2;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #171717;
+  cursor: pointer;
+  transition: .5s;
+}
+
+ #navbar i {
+ color: #240140;
+}
 
 
 .wrapper {
