@@ -8,6 +8,10 @@ body {
   background-color: #240140;
 }
 
+form {
+  width: 500px;
+  padding-bottom: 10px;
+}
 
 .playlists{
 
@@ -28,6 +32,9 @@ body {
   transition: .5s;
 }
 
+ #navbar i {
+ color: #240140;
+}
 
 
 .wrapper {
