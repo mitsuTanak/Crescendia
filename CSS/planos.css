@@ -42,6 +42,9 @@ section{
 
 .premium, .estudante, .familia{
 
+    display: flex;
+    align-items: center;
+
     background-color: #fff;
 
     border: 10px solid rgb(126, 126, 126);
@@ -51,5 +54,9 @@ section{
     margin: 10px;
 
     
+
+}
+
+.btn{
 
 }
