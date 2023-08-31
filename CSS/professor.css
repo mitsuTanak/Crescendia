@@ -30,23 +30,18 @@ body {
     /* background-color: #686868; */
     background-image: url(../assets/Gif_fundo.gif);
     background-size: cover;
-    width: 100%;
+    width: 90%;
     height: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
 }
-  
-.logo i{
 
-    height: 100px;
-
-}
   
 #musicName {
     white-space: nowrap; 
-    width: 100%;
+
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 30px;
@@ -55,6 +50,7 @@ body {
 }
   
 .controls button {
+    padding: 25px;
     border: none;
     background-color: #240140;
     cursor: pointer;
@@ -76,6 +72,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
 }
   
 .time span {
@@ -91,7 +89,9 @@ body {
     height: 8px;
     background-color: #333;
     cursor: pointer;
-    margin-bottom: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
     border-radius: 5px;
 }
   
