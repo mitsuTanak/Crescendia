@@ -3,6 +3,20 @@
 
 }
 
+.btn {
+    background-color: #976df2 !important;
+}
+.btn:hover {
+    background-color: #fff !important;
+    color: #171717 !important;
+    cursor: pointer !important;
+    transition: .5s !important;
+}
+
+#navbar i {
+    color: #240140; 
+}
+
 body{
     background-color: #240140 !important;
 }
@@ -12,8 +26,7 @@ main{
 }
 
 main h1{
-    display: flex;
-    justify-content: center;
+    margin-left: 32%;
 
     font-weight: bolder;
     font-size: 50px;
@@ -42,9 +55,6 @@ section{
 
 .premium, .estudante, .familia{
 
-    display: flex;
-    align-items: center;
-
     background-color: #fff;
 
     border: 10px solid rgb(126, 126, 126);
@@ -53,10 +63,26 @@ section{
     padding: 10px;
     margin: 10px;
 
+    display: flex !important;
+    justify-content: space-between !important;
+
+    flex-direction: column;
+
     
 
 }
 
-.btn{
 
+
+@media(min-width:768px) {
+    form {
+      width: 50%;
+  
+    }
+}
+  
+@media(max-width:768px) {
+    .cres {
+        display: none;
+    }
 }
