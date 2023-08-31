@@ -47,7 +47,6 @@ body {
   color: #8137b3;
   background-color: #fff;
   border-radius: 500px;
-  border: 10px solid #8137b3;
   
   
   top: 84%;
@@ -61,7 +60,6 @@ body {
 
 
 /* Carousel */
-
 
 .wrapper {
   width: 100%;
@@ -155,6 +153,7 @@ body {
   border-radius: 50%;
 }
 .carousel .card .img img {
+  position: ;
   width: 140px;
   height: 140px;
   border-radius: 5%;
@@ -163,7 +162,7 @@ body {
 }
 .carousel .card h2 {
   font-weight: 500;
-  font-size: 1.56rem;
+  font-size: 1.25rem;
   color: #fff;
   margin: 30px 0 5px;
   text-align: center;
