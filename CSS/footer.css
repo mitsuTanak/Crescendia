@@ -9,7 +9,6 @@
 }
 
 * {
-    max-width: 1455px;
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
@@ -18,8 +17,7 @@
 }
 
 footer {
-
-    width: 1455px;
+    width: 100%;
     color: var(--color-neutral-40) ;
 }
 
