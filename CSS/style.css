@@ -9,8 +9,6 @@ body {
 }
 
 
-
-
 .playlists{
 
   display: flex;
@@ -21,7 +19,6 @@ body {
   padding: auto;
 
 }
-
 
 
 .btn {
