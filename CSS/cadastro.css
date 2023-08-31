@@ -3,7 +3,7 @@ body{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
 	line-height: 1.7;
-	color: #ADDEFF;
+	color: #976df2;
 	background-color: #1f2029;
   background: url(../assets/sound-waves.gif);
   background-size: cover;
@@ -19,7 +19,7 @@ a:hover {
 	text-decoration: none;
 }
 .link {
-  color: #ADDEFF;
+  color: #976df2;
 }
 .link:hover {
   color: #c4c3ca;
@@ -58,7 +58,7 @@ display: none;
   padding: 0;
   margin: 10px auto;
   cursor: pointer;
-  background-color: #ADDEFF;
+  background-color: #976df2;
 }
 .checkbox:checked + label:before,
 .checkbox:not(:checked) + label:before{
@@ -67,7 +67,7 @@ display: none;
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  color: #ADDEFF;
+  color: #976df2;
   background-color: #020305;
   font-family: 'unicons';
   content: '\eb4f';
@@ -179,12 +179,12 @@ display: none;
   display: -ms-inline-flexbox;
   display: inline-flex;
   align-items: center;
-  background-color: #ADDEFF;
+  background-color: #976df2;
   color: #000000;
 }
 .btn:hover{  
   background-color: #000000;
-  color: #ADDEFF;
+  color: #976df2;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
 }
 
