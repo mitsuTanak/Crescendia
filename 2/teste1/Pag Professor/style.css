@@ -1,0 +1,16 @@
+
+body{
+     background: url(video/sharks_video.mp4);
+     background-size: cover; 
+    background-position: 100%;
+  overflow: hidden;
+  height: 100vh;
+} 
+
+#container{
+  width: 1550px;
+  height: 140px;
+  background-color: #600ABB;
+}
+
+
