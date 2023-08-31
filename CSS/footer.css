@@ -26,6 +26,7 @@ footer {
 }
 
 #footer_content {
+    width: 105%;
     background-color: var(--color-neutral-10);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -136,7 +137,7 @@ footer {
     font-weight: 100;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     #footer_content {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
