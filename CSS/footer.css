@@ -103,7 +103,7 @@ footer {
     font-weight: 100;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     #footer_content {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
