@@ -1,0 +1,62 @@
+*{
+    max-width: 1080;
+
+}
+
+body{
+    background-color: #240140 !important;
+}
+
+main{
+    margin-top: 100px;
+}
+
+main h1{
+    display: flex;
+    justify-content: center;
+
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(250, 250, 250);
+}
+/* 
+main h2, main li{
+    color: white;
+} */
+
+span{
+
+    color: #ff6060;
+}
+
+li{
+    /* list-style: none; */
+}
+
+section{
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.premium, .estudante, .familia{
+
+    display: flex;
+    align-items: center;
+
+    background-color: #fff;
+
+    border: 10px solid rgb(126, 126, 126);
+    border-radius: 10px;
+
+    padding: 10px;
+    margin: 10px;
+
+    
+
+}
+
+.btn{
+
+}
