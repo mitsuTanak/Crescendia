@@ -57,7 +57,7 @@ section{
 
     background-color: #fff;
 
-    border: 10px solid rgb(126, 126, 126);
+    border: 7px solid rgb(163, 163, 163);
     border-radius: 10px;
 
     padding: 10px;
@@ -76,12 +76,14 @@ section{
 
 @media(min-width:768px) {
     form {
-      width: 50%;
+      width: 500px;
+      display: flex !important;
+      justify-content: center !important;
   
     }
 }
   
-@media(max-width:768px) {
+@media(max-width:875x) {
     .cres {
         display: none;
     }
