@@ -8,18 +8,36 @@ body {
   background-color: #240140;
 }
 
-form {
-  width: 500px;
-  padding-bottom: 10px;
+
+
+@media(min-width:768px) {
+  form {
+    width: 500px;
+
+  }
+}
+
+@media(max-width:768px) {
+  .cres {
+    display: none;
+  }
 }
 
 .playlists{
 
   display: flex;
   justify-content: center;
+  margin-top: 100px;
+  height: 175px;
+  /* background-color: #976df2; */
+  padding: auto;
 
-  justify-content: space-between;
-  
+}
+
+@media(min-width:768px) {
+  .playlists {
+    margin-bottom: 175px;
+  }
 }
 
 .btn {
