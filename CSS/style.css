@@ -44,13 +44,14 @@ body {
 .play-playlist {
 
   position: absolute;
-
   color: #8137b3;
   background-color: #fff;
-  border-radius: 100px;
+  border-radius: 500px;
+  border: 10px solid #8137b3;
+  
   
   top: 84%;
-  left: 8%;
+  left: 84%;
 
   z-index: 1;
 
