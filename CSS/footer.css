@@ -9,6 +9,7 @@
 }
 
 * {
+    max-width: 1455px;
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
@@ -17,7 +18,8 @@
 }
 
 footer {
-    width: 100%;
+
+    width: 1455px;
     color: var(--color-neutral-40) ;
 }
 
@@ -26,7 +28,8 @@ footer {
 }
 
 #footer_content {
-    background-color: var(--color-neutral-10);
+    width: 1455px;
+    background-color: #171717;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
