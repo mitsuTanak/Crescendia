@@ -20,6 +20,11 @@ body {
 
 }
 
+.playlists .card-2 img{
+
+  margin-top: 5px;
+}
+
 
 .btn {
   background-color: #976df2;
