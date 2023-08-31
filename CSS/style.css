@@ -1,30 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   max-width: 1455px;
   background-color: #240140;
 }
-
-
-.playlists{
-
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-  height: 175px;
-  /* background-color: #976df2; */
-  padding: auto;
-
-}
-
-.playlists .card-2 img{
-
-  margin-top: 5px;
-}
-
 
 .btn {
   background-color: #976df2;
@@ -39,6 +21,41 @@ body {
  #navbar i {
  color: #240140;
 }
+
+.playlists{
+
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+
+  margin-top: 100px;
+  height: 175px;
+  /* background-color: #976df2; */
+  padding: auto;
+
+}
+
+.playlists .card-2 img{
+
+  margin-top: 5px;
+}
+
+.play-playlist {
+
+  position: absolute;
+
+  color: #8137b3;
+  background-color: #fff;
+  border-radius: 100px;
+  
+  top: 84%;
+  left: 84%;
+
+  z-index: 1;
+
+}
+
 
 
 
