@@ -1,15 +1,23 @@
 
 body{
-    background-image: url(../assets/sound-waves.gif);
+     background-image: url(../assets/); 
      background-size: cover; 
     background-position: 100%;
   overflow: hidden;
   height: 100vh;
 }
 
-.player{
-    position: absolute;
-    background-color: #270046;
 
+#container{
+  width: 1550px;
+  height: 140px;
+  background-color: #600ABB;
+
+}
+
+.progress-bar{
+  height: 50px;
+  padding: 5px;
+  background-color: #fff;
 }
 
