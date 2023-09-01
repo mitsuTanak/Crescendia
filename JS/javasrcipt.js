@@ -43,3 +43,12 @@ document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("scroll", infiniteScroll);
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
+
+    // <![CDATA[
+        document.querySelector("#go").addEventListener("submit", function(e) {
+            e.preventDefault();
+            window.location.replace('http://status.ondeestameupedido.com/tracking/6560/' + document.getElementById("pedido").value);
+      
+      
+          });
+          // ]]>
