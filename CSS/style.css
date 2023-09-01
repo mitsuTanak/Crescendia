@@ -162,7 +162,7 @@ body {
   height: 250px;
 
   list-style: none;
-  background: #505050;
+  background: #784aaa93;
 
   cursor: pointer;
   
@@ -194,6 +194,50 @@ body {
 /* Responsividade */
 
 
+/* | de Navegação */
+
+@media(min-width:768px) {
+  form {
+    width: 500px;
+
+  }
+
+
+  /* Playlit's */
+  
+  .playlists {
+    margin-bottom: 175px;
+  }
+}
+
+@media(max-width:768px) {
+  .cres {
+    display: none;
+  }
+}
+
+
+/* Playlit's */
+
+
+
+@media(max-width:990px) {
+  .play-playlist {
+    height: 50px ;
+    width: 50px ;
+  }
+}
+
+@media(max-width:768px) {
+  .play-playlist {
+    height: 35px ;
+    width: 35px ;
+  }
+}
+
+
+/* Carousel */
+
 @media screen and (max-width: 1135px) {
   .wrapper .carousel {
     grid-auto-columns: calc((100% / 4) - 9px);
@@ -219,17 +263,5 @@ body {
   }
 }
 
-@media(min-width:768px) {
-  form {
-    width: 500px;
-
-  }
-}
-
-@media(max-width:768px) {
-  .cres {
-    display: none;
-  }
-}
 
 
