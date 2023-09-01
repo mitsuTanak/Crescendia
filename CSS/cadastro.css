@@ -121,7 +121,6 @@ display: none;
   top: 50%;
   left: 0;
   transform: translate3d(0, -50%, 35px) perspective(100px);
-  z-index: 20;
   display: block;
 }
 .form-group{ 
