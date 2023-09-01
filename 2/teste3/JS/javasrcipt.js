@@ -52,7 +52,7 @@ wrapper.addEventListener("mouseleave", autoPlay);
 // <![CDATA[
 document.querySelector("#go").addEventListener("submit", function(e) {
     e.preventDefault();
-    e.style.display = "none"
+    // e.style.display = "none"
 
 
 });
