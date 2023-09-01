@@ -4,7 +4,7 @@
 }
 
 body {
-  max-width: 1455px;
+  /* max-width: 1455px; */
   background-color: #240140;
 }
 
@@ -71,8 +71,13 @@ body {
 }
 
 .ben {
+<<<<<<< Updated upstream
   padding-top: 100px;
   margin-top: 70px;
+=======
+  padding-top: 10%;
+  margin-top: 40px;
+>>>>>>> Stashed changes
   text-align: center;
   color: #fff;
   margin-left: 50px;
@@ -88,18 +93,26 @@ body {
   width: 100%;
   position: relative;
 }
+
+
 .wrapper i {
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+
   top: 50%;
   height: 50px;
   width: 50px;
+
   cursor: pointer;
   font-size: 1.25rem;
   position: absolute;
   text-align: center;
   line-height: 50px;
+
   background: #fff;
   border-radius: 50%;
   box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+
   transform: translateY(-50%);
   transition: transform 0.1s linear;
 }
@@ -196,7 +209,7 @@ body {
 
 /* | de Navegação */
 
-@media(min-width:768px) {
+@media(min-width:834px) {
   form {
     width: 500px;
 
@@ -204,7 +217,7 @@ body {
 
 
   /* Playlit's */
-  
+
   .playlists {
     margin-bottom: 175px;
   }
@@ -225,6 +238,11 @@ body {
   .play-playlist {
     height: 50px ;
     width: 50px ;
+  }
+
+  .music {
+    margin-top: 0;
+    padding-top: 0;
   }
 }
 
