@@ -217,7 +217,7 @@ body {
   transition: opacity 400ms ease-in;
   /* pointer-events: none; */
   opacity: 1;
-  z-index: 9999;
+  /* z-index: 9999; */
 }
 
 .modalDialog img{
