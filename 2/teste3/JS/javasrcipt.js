@@ -50,10 +50,14 @@ wrapper.addEventListener("mouseleave", autoPlay);
 
 
 // <![CDATA[
-document.querySelector("#go").addEventListener("submit", function(e) {
-    e.preventDefault();
-    // e.style.display = "none"
+// document.querySelector("#go").addEventListener("submit", function(e) {
+//     e.preventDefault();
+//     e.style.display = "none"
 
 
-});
+// });
+
+function fechar() {
+    document.getElementById('openModal').style.display = 'none'
+}
 // ]]>

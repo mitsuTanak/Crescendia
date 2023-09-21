@@ -50,9 +50,10 @@ wrapper.addEventListener("mouseleave", autoPlay);
 
 
 // <![CDATA[
-document.querySelector("#go").addEventListener("submit", function(e) {
-    e.preventDefault();
-    e.style.display = "none"
+document.querySelector("#go").addEventListener("click", function(e) {
+   
 
 });
 // ]]>
+
+document.querySelector("#go").addEventListener("submit", function(e) )
