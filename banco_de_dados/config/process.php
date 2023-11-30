@@ -15,15 +15,17 @@
 
       $name = $data["name"];
       $phone = $data["phone"];
-      $observations = $data["observations"];
+      $email = $data["email"];
+      $observations = $data["password"];
 
-      $query = "INSERT INTO contacts (name, phone, observations) VALUES (:name, :phone, :observations)";
+      $query = "INSERT INTO contacts (name, phone, email, password) VALUES (:name, :phone, :email, :password)";
 
       $stmt = $conn->prepare($query);
 
       $stmt->bindParam(":name", $name);
       $stmt->bindParam(":phone", $phone);
-      $stmt->bindParam(":observations", $observations);
+      $stmt->bindParam(":email", $email);
+      $stmt->bindParam(":password", $password);
 
       try {
 
@@ -40,18 +42,20 @@
 
       $name = $data["name"];
       $phone = $data["phone"];
-      $observations = $data["observations"];
+      $email = $data["email"];
+      $observations = $data["password"];
       $id = $data["id"];
 
       $query = "UPDATE contacts 
-                SET name = :name, phone = :phone, observations = :observations 
+                SET name = :name, phone = :phone, email = :email, password = :password 
                 WHERE id = :id";
 
       $stmt = $conn->prepare($query);
 
       $stmt->bindParam(":name", $name);
       $stmt->bindParam(":phone", $phone);
-      $stmt->bindParam(":observations", $observations);
+      $stmt->bindParam(":email", $email);
+      $stmt->bindParam(":password", $password);
       $stmt->bindParam(":id", $id);
 
       try {

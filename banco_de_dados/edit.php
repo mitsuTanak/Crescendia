@@ -12,8 +12,16 @@
         <input type="text" class="form-control" id="name" name="name" placeholder="Digite o nome" value="<?= $contact['name'] ?>" required>
       </div>
       <div class="form-group">
+        <label for="email">E-mail do contato:</label>
+        <input type="text" class="form-control" id="email" name="email" placeholder="Digite o email" value="<?= $contact['email'] ?>" required>
+      </div>
+      <div class="form-group">
         <label for="phone">Telefone do contato:</label>
         <input type="text" class="form-control" id="phone" name="phone" placeholder="Digite o telefone" value="<?= $contact['phone'] ?>" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Senha:</label>
+        <input type="text" class="form-control" id="password" name="password" placeholder="Digite a senha" value="<?= $contact['password'] ?>" required>
       </div>
       <div class="form-group">
         <label for="observations">Observações:</label>
