@@ -1,0 +1,21 @@
+CREATE DATABASE clientes;
+
+USE clientes;
+
+CREATE TABLE usuarios(
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    nomes VARCHAR(245),
+    email VARCHAR(320),
+    telefone VARCHAR(20),
+    senha INT
+);
+    
+INSERT INTO usuarios(nomes, email, telefone, senha) VALUES ('Gabriela Malerba', 'gabrielamalerba@gmail.com', '525251515', '192837465');
+INSERT INTO usuarios(nomes, email, telefone, senha) VALUES ('Sophia Ramalho', 'sophiaramalho@hotmail.com', '912345679', '111222333');
+INSERT INTO usuarios(nomes, email, telefone, senha) VALUES ('Victor Oliva', 'victoroliva@gmail.com', '999999999', '201022194');
+INSERT INTO usuarios(nomes, email, telefone, senha) VALUES ('Raphael Cherry', 'cherryraphael@gmail.com', '525251515', '88888885454');
+INSERT INTO usuarios(nomes, email, telefone, senha) VALUES ('Pedro Mitsuaki', 'japones@yahoo.com', '40028922', '22982004');
+INSERT INTO usuarios(nomes, email, telefone, senha) VALUES ('Livia Figas', 'figaslivia@gmail.com', '21433230', '21433000');
+INSERT INTO usuarios(nomes, email, telefone, senha) VALUES ('Ignacio Cunhado', 'ignacinhooo@hotmail.com', '918891538', '935776235');
+INSERT INTO usuarios(nomes, email, telefone, senha) VALUES ('Ignacio Cunhado', 'ignacinhooo@hotmail.com', '918891538', '935776235');
+
