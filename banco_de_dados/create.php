@@ -1,6 +1,7 @@
 <?php
-  include_once("templates/header.php");
+  include_once("../CSS/cadastro.css");
 ?>
+
   <div class="container">
     <?php include_once("templates/backbtn.html"); ?>
     <h1 id="main-title">Criar contato</h1>
