@@ -1,0 +1,24 @@
+CREATE DATABASE crescendia;
+
+USE crescendia;
+
+-- _________________________________
+
+CREATE TABLE contacts(
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    phone VARCHAR(20),
+    email VARCHAR(50),
+    senha VARCHAR(80),
+    observations TEXT
+);
+
+-- _________________________________
+
+-- Inserções 
+
+INSERT INTO contacts (name, phone, email, senha, observations) VALUES ('Brad Pitt', '555-1234','bradpitt@gmail.com', '123', 'Ator de Hollywood');
+
+
+
+
