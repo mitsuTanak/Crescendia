@@ -18,6 +18,14 @@ CREATE TABLE contacts(
 -- Inserções 
 
 INSERT INTO contacts (name, phone, email, senha, observations) VALUES ('Brad Pitt', '555-1234','bradpitt@gmail.com', '123', 'Ator de Hollywood');
+INSERT INTO contacts(name, phone, email, senha, observations) VALUES ('Gabriela Malerba', '525251515','gabrielamalerba@gmail.com', '192837465', 'RocK/MPB');
+INSERT INTO contacts(name, email, phone, senha, observations) VALUES ('Sophia Ramalho', '912345679','sophiaramalho@hotmail.com', '111222333', 'Pop');
+INSERT INTO contacts(name, email, phone, senha, observations) VALUES ('Victor Oliva', '999999999', 'victoroliva@gmail.com', '201022194', 'Rock/Pop');
+INSERT INTO contacts(name, email, phone, senha, observations) VALUES ('Raphael Cherry', '525251515', 'cherryraphael@gmail.com', '88888885454', 'Rap');
+INSERT INTO contacts(name, email, phone, senha, observations) VALUES ('Pedro Mitsuaki', '40028922', 'japones@yahoo.com', '22982004', 'Pop/Indie');
+INSERT INTO contacts(name, email, phone, senha, observations) VALUES ('Livia Figas', '21433230', 'figaslivia@gmail.com', '21433000', 'Rap Geekie');
+INSERT INTO contacts(name, email, phone, senha, observations) VALUES ('Ignacio Cunhado',  '918891538', 'ignacinhooo@hotmail.com', '935776235', 'Rock n Roll');
+INSERT INTO contacts(name, email, phone, senha, observations) VALUES ('Valmis Valmis', '918891538' 'valmir@hotmail.com', '935776235', 'Gospel');
 
 
 
