@@ -23,7 +23,7 @@
       </div>
 
       <div class="form-group">
-        <label for="password">Telefone do contato:</label>
+        <label for="password">Senha:</label>
         <input type="text" class="form-control" id="password" name="password" placeholder="Digite a senha" required>
       </div>
 

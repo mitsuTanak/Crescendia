@@ -1,6 +1,5 @@
-<?php
-  include_once("templates/header.php");
-?>
+
+<body>
   <div class="container">
     <?php if(isset($printMsg) && $printMsg != ''): ?>
       <p id="msg"><?= $printMsg ?></p>
@@ -43,6 +42,7 @@
       <p id="empty-list-text">Ainda não há clientes cadastrados, <a href="<?= $BASE_URL ?>create.php">clique aqui para adicionar</a>.</p>
     <?php endif; ?>
   </div>
+  </body>
 <?php
   include_once("templates/footer.php");
 ?>
