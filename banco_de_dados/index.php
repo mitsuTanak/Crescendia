@@ -5,7 +5,7 @@
     <?php if(isset($printMsg) && $printMsg != ''): ?>
       <p id="msg"><?= $printMsg ?></p>
     <?php endif; ?>
-    <h1 id="main-title">Cadastro de clientes</h1>
+    <h1 id="main-title">Lista de usuários</h1>
     <?php if(count($contacts) > 0): ?>
       <table class="table" id="contacts-table">
         <thead>
