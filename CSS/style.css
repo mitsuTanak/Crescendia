@@ -223,18 +223,30 @@ body {
   position: absolute;
 }
 
-.bnt {
+.card .play .fa {
+  margin-top: 125px;
+  margin-left: 125px;
+
   display: inline-block;
+
   background: #333;
   color: #fff;
-  padding: 8px 30px;
-  margin: 30px 0px;
+
+  padding: 13px 15px;
+
   border-radius: 30px;
-  transition: backgroud 0.5s, color 0.3s, opacity 1s;
+
+  opacity: 0;
+
+  transition: backgroud 0.5s, color 0.3s, opacity 0.5s;
+
 }
 
-.bnt:hover {
+.card:hover .play .fa{
+  
   background: #60386b;
+  opacity: 1;
+  
 }
 
 /* Popup Modal */
