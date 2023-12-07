@@ -4,7 +4,7 @@
 }
 
 body {
-  max-width: 1455px;
+  max-width: 1519.2px;
   background-color: #240140;
 }
 
@@ -86,7 +86,7 @@ body {
 /* Carousel */
 
 .wrapper {
-  width: 100%;
+  width: 99%;
   position: relative;
   z-index: 1;
 }
@@ -119,13 +119,13 @@ body {
 
 
 .wrapper .carousel{
-  margin: 3%;
+  margin-left: 3%; 
 
 
 
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100% / 6) - 10px);
+  grid-auto-columns: calc((100% / 6) - 15px);
 
   overflow-x: auto;
   scroll-snap-type: x mandatory;
@@ -152,11 +152,13 @@ body {
   cursor: grab;
   user-select: none;
 }
+
 .carousel :where(.card, .img) {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .carousel .card {
   scroll-snap-align: start;
 
