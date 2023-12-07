@@ -68,7 +68,7 @@ body {
     cursor: pointer;
 }
   
-.controls i {
+.controls .bx {
     font-size: 60px;
     padding: 5px;
     border-radius: 50%;
@@ -76,7 +76,7 @@ body {
     transition: all .2s;
 }
   
-.controls i:hover {
+.controls .bx:hover {
     background-color: lightgray;
 }
 
