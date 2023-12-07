@@ -41,7 +41,7 @@ include_once("templates/header.php");
     </div>
 
     <!-- Botão para submeter o formulário -->
-    <button type="submit" class="btn" style="background: linear-gradient(to right, rgb(72, 104, 217), rgb(172, 105, 183)); color: #fff; border: none;">
+    <button type="submit" class="btn" style="background: #B26DFC; color: #fff; border: none;">
       Cadastrar
     </button>
   </form>

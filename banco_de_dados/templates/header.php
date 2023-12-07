@@ -23,11 +23,11 @@
   <!-- CSS -->
   <link rel="stylesheet" href="<?= $BASE_URL ?>css/styles.css">
 </head>
-<body style="background: #333;">
+<body style="background: #240140;">
 <header>
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(to right, rgb(72, 104, 217), rgb(172, 105, 183));">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background: #262626;">
   <a class="navbar-brand" href="<?= $BASE_URL ?>index.php" style="padding-left: 50px;">
-  <img src="<?= $BASE_URL ?>img/logo3.svg" alt="Agenda" style="width: 80px;">
+  <img src="<?= $BASE_URL ?>img/logo.png" alt="Agenda" style="width: 80px;">
   </a>
 
 

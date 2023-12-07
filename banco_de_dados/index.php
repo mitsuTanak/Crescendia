@@ -5,10 +5,10 @@
   <?php if(isset($printMsg) && $printMsg != ''): ?>
   <p id="msg" style="background-color: #976df2; color: #fff; border:none; font-size:20px;font-weight:bolder;"><?= $printMsg ?></p>
   <?php endif; ?>
-    <h1 id="main-title" style="color: #fff;" >Cadastro de clientes</h1>
+    <h1 id="main-title" style="color: #fff;" >Lista de Usuários</h1>
     <?php if(count($contacts) > 0): ?>
       <table class="table" id="contacts-table">
-        <thead style="background: linear-gradient(to right, rgb(72, 104, 217), rgb(172, 105, 183));">
+        <thead style="background: #784AAA;">
           <tr>
             <th scope="col">#</th>
             <th scope="col">Nome</th>
@@ -20,7 +20,7 @@
         </thead>
         <tbody>
           <?php foreach($contacts as $contact): ?>
-            <tr>
+            <tr style=" background-color: 240140;">
             <td scope="row" class="col-id" style="color: #fff;"><?= $contact["id"] ?></td>
             <td scope="row" style="color: #fff;"><?= $contact["name"] ?></td>
             <td scope="row" style="color: #fff;"><?= $contact["phone"] ?></td>
@@ -43,15 +43,15 @@
 </script>
 
               <td class="actions">
-                <a href="<?= $BASE_URL ?>show.php?id=<?= $contact["id"] ?>"><i class="fas fa-eye check-icon"></i></a>
+                <a href="<?= $BASE_URL ?>show.php?id=<?= $contact["id"] ?>"><i class="fas fa-eye check-icon" style="color: #fff;"></i></a>
                 <a href="<?= $BASE_URL ?>edit.php?id=<?= $contact["id"] ?>">
-                <i class="far fa-edit edit-icon" style="color: #976df2;"></i>
+                <i class="far fa-edit edit-icon" style="color: #fff;"></i>
                 </a>
                 
                 <form class="delete-form" action="<?= $BASE_URL ?>/config/process.php" method="POST">
                   <input type="hidden" name="type" value="delete">
                   <input type="hidden" name="id" value="<?= $contact["id"] ?>">
-                  <button type="submit" class="delete-btn"><i class="fas fa-times delete-icon"></i></button>
+                  <button type="submit" class="delete-btn"><i class="fas fa-times delete-icon" style="color: #fff;"></i></button>
                 </form>
               </td>
             </tr>
