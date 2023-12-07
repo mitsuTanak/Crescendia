@@ -1,6 +1,7 @@
 <?php
-  include_once("../CSS/cadastro.css");
+ include_once("../teste_cadastro/cadastro.html");
 ?>
+
 
   <div class="container">
     <?php include_once("templates/backbtn.html"); ?>
@@ -30,6 +31,4 @@
       <button type="submit" class="btn btn-primary">Cadastrar</button>
     </form>
   </div>
-<?php
-  include_once("templates/footer.php");
-?>
+

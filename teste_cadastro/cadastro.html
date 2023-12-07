@@ -1,14 +1,13 @@
-<!doctype html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-be">
 <head>
-  <title>Login</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="../CSS/cadastro.css">
-
 </head>
 <body>
 
@@ -79,7 +78,7 @@
                         <input type="password" class="form-style" placeholder="Senha">
                         <i class="input-icon uil uil-lock-alt"></i>
                       </div>
-                      <a href="../index.html" class="btn mt-4">Registrar</a>
+                      <button type="submit" class="btn btn-primary">Cadastrar</button>
 
                         </div>
                       </div>
@@ -97,5 +96,39 @@
       </div>
 
   </div>
+  
+<!-- 
+                    _______________________________________________________________________________ -->
+<!-- 
+    <div class="container">
+        <h1 id="main-title">Criar contato</h1>
+        <form id="create-form" action="<?= $BASE_URL ?>config/process.php" method="POST">
+          <input type="hidden" name="type" value="create">
+          <div class="form-group">
+            <label for="name">Nome do contato:</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Digite o nome" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone do contato:</label>
+            <input type="text" class="form-control" id="phone" name="phone" placeholder="Digite o telefone" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="text" class="form-control" id="email" name="email" placeholder="Digite o e-mail" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Senha:</label>
+            <input type="text" class="form-control" id="senha" name="senha" placeholder="Digite a sua senha" required>
+          </div>
+          <div class="form-group">
+            <label for="observations">Observações:</label>
+            <textarea type="text" class="form-control" id="observations" name="observations" placeholder="Insira as observações" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+      </div>
+     -->
+    
+    
 </body>
 </html>
