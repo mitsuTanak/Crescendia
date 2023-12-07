@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+
+
 }
 
 body {
@@ -72,13 +76,30 @@ body {
 }
 
 .ben {
+  font-family: 'Bebas Neue', sans-serif;
+
   padding-top: 100px;
   margin-top: 100px;
   text-align: center;
-   color:#fff;
+  color:#fff;
   margin-left: 50px;
   font-weight: bolder;
-  font-size: 60px;
+  font-size: 100px;
+}
+
+.ben span{
+  font-family: 'Bebas Neue', sans-serif;
+
+  color: #8137b3;
+
+  animation: changeColor 5s infinite;
+}
+
+@-webkit-keyframes changeColor {
+  0%   {color: #8137b3;}
+  25%  {color: #cc21b2;}
+  50%  {color: #ff3b76;}
+  100% {color: #8137b3;}
 }
 
 
@@ -94,14 +115,18 @@ body {
   top: 50%;
   height: 50px;
   width: 50px;
+
   cursor: pointer;
+
   font-size: 1.25rem;
   position: absolute;
   text-align: center;
+
   line-height: 50px;
   background: #fff;
   border-radius: 50%;
   box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+
   transform: translateY(-50%);
   transition: transform 0.1s linear;
 }
@@ -194,6 +219,23 @@ body {
   text-align: center;
 }
 
+.play {
+  position: absolute;
+}
+
+.bnt {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0px;
+  border-radius: 30px;
+  transition: backgroud 0.5s, color 0.3s, opacity 1s;
+}
+
+.bnt:hover {
+  background: #60386b;
+}
 
 /* Popup Modal */
 
