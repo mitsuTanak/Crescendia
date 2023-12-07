@@ -45,16 +45,16 @@
                     <div class="section text-center">
                       <h4 class="mb-4 pb-3">Log In</h4>
                       <div class="form-group">
-                        <input type="email" class="form-style" placeholder="Email">
-                        <i class="input-icon uil uil-at"></i>
-                      </div>	
-                      <div class="form-group mt-2">
-                        <input type="password" class="form-style" placeholder="Senha">
-                        <i class="input-icon uil uil-lock-alt"></i>
+                          <input type="email" id="email" class="form-style" placeholder="Email">
+                          <i class="input-icon uil uil-at"></i>
                       </div>
-                      <a href="../index.html" class="btn mt-4">Login</a>
+                      <div class="form-group mt-2">
+                          <input type="password" id="senha" class="form-style" placeholder="Senha">
+                          <i class="input-icon uil uil-lock-alt"></i>
+                      </div>
+                      <button onclick="validarLogin()" class="btn mt-4">Login</button>
                       <p class="mb-0 mt-4 text-center"><a href="#" class="link">Esqueceu a Senha?</a></p>
-                        </div>
+                  </div>
                       </div>
                     </div>
 
@@ -97,5 +97,39 @@
       </div>
 
   </div>
+
+  <!-- JS de validação de login -->
+  <script>
+    function validarLogin() {
+        // Obter valores do email e senha
+        var email = document.getElementById("email").value;
+        var senha = document.getElementById("senha").value;
+
+        // Lista de usuários permitidos
+        var usuariosPermitidos = [
+            { email: "pedro@gmail.com", senha: "123" },
+            { email: "gabis@gmail.com", senha: "123" },
+            { email: "livia@gmail.com", senha: "123" },
+            { email: "victor@gmail.com", senha: "123" },
+            { email: "rafael@gmail.com", senha: "123" },
+            { email: "sophia@gmail.com", senha: "123" }
+        ];
+
+        // Verificar se o email e senha correspondem a um dos usuários permitidos
+        var usuarioValido = usuariosPermitidos.find(function(usuario) {
+            return usuario.email === email && usuario.senha === senha;
+        });
+
+        if (usuarioValido) {
+            // Redirecionar para a página de login
+            window.location.href = "../banco_de_dados/index.php";
+        } else {
+            // Exibir uma mensagem de erro (você pode personalizar essa mensagem conforme necessário)
+            alert("Email ou senha incorretos. Tente novamente.");
+        }
+    }
+</script>
+
+
 </body>
 </html>

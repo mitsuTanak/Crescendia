@@ -19,8 +19,7 @@
       $senha = $data["senha"];
       $observations = $data["observations"];
 
-      $query = "INSER
-      T INTO contacts (name, phone, email, senha, observations) VALUES (:name, :phone, :email, :senha,:observations)";
+      $query = "INSERT INTO contacts (name, phone, email, senha, observations) VALUES (:name, :phone, :email, :senha,:observations)";
 
       $stmt = $conn->prepare($query);
 
