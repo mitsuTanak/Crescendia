@@ -8,7 +8,7 @@
     <h1 id="main-title" style="color: #fff;" >Lista de Usuários</h1>
     <?php if(count($contacts) > 0): ?>
       <table class="table" id="contacts-table">
-        <thead style="background: #784AAA;">
+        <thead style="background: linear-gradient(180deg, rgba(183,17,41,1)40%, rgba(0,0,0,1) 100%);">
           <tr>
             <th scope="col">#</th>
             <th scope="col">Nome</th>
@@ -43,15 +43,15 @@
 </script>
 
               <td class="actions">
-                <a href="<?= $BASE_URL ?>show.php?id=<?= $contact["id"] ?>"><i class="fas fa-eye check-icon" style="color: #fff;"></i></a>
+                <a href="<?= $BASE_URL ?>show.php?id=<?= $contact["id"] ?>"><i class="fas fa-eye check-icon" style="color: #B26DFC;"></i></a>
                 <a href="<?= $BASE_URL ?>edit.php?id=<?= $contact["id"] ?>">
-                <i class="far fa-edit edit-icon" style="color: #fff;"></i>
+                <i class="far fa-edit edit-icon" style="color: #B26DFC;"></i>
                 </a>
                 
                 <form class="delete-form" action="<?= $BASE_URL ?>/config/process.php" method="POST">
                   <input type="hidden" name="type" value="delete">
                   <input type="hidden" name="id" value="<?= $contact["id"] ?>">
-                  <button type="submit" class="delete-btn"><i class="fas fa-times delete-icon" style="color: #fff;"></i></button>
+                  <button type="submit" class="delete-btn"><i class="fas fa-times delete-icon" style="color: #B71129;"></i></button>
                 </form>
               </td>
             </tr>

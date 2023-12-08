@@ -27,7 +27,7 @@
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark" style="background: #262626;">
   <a class="navbar-brand" href="<?= $BASE_URL ?>index.php" style="padding-left: 50px;">
-  <img src="<?= $BASE_URL ?>img/logo.png" alt="Agenda" style="width: 80px;">
+  <img src="<?= $BASE_URL ?>img/logo2.png" alt="Agenda" style="width: 80px;">
   </a>
 
 
