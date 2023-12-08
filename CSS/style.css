@@ -184,6 +184,74 @@ body {
   align-items: center;
 }
 
+/* .corChata{
+  background: linear-gradient(90deg, #400e73, #CD2840);
+
+
+} */
+
+
+
+
+
+
+/* .carousel {
+  position: relative;
+  list-style-type: none;
+}
+
+.carousel li {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel li:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.3s ease;
+  z-index: 1;
+}
+
+.carousel li:nth-child(1):before {
+  background-color: rgba(0, 255, 0, 0.5); Cor verde com 50% de transparência
+}
+
+.carousel li:nth-child(6):before {
+  background-color: rgba(255, 0, 0, 0.5); Cor vermelha com 50% de transparência
+}
+
+.carousel li img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.carousel li h2 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  z-index: 2;
+  color: #fff; Cor do texto
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .carousel .card {
   scroll-snap-align: start;
 
@@ -191,7 +259,8 @@ body {
   height: 250px;
 
   list-style: none;
-  background: #505050;
+  
+  background-color: #333;
 
   cursor: pointer;
   
@@ -371,4 +440,3 @@ body {
   }
    
 }
-.wrapper
