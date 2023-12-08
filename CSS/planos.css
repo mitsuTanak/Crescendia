@@ -4,10 +4,10 @@
 }
 
 .btn {
-    background-color: #976df2 !important;
+    background-color: #CD2840 !important;
 }
 .btn:hover {
-    background-color: #fff !important;
+    background-color: #976df2 !important;
     color: #171717 !important;
     cursor: pointer !important;
     transition: .5s !important;

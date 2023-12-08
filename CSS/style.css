@@ -13,10 +13,10 @@ body {
 }
 
 .btn {
-  background-color: #976df2;
+  background-color: #CD2840;
 }
 .btn:hover {
-  background-color: #fff;
+  background-color: #976df2;
   color: #171717;
   cursor: pointer;
   transition: .5s;
@@ -49,7 +49,7 @@ body {
 .play-playlist {
 
   position: absolute;
-  color: #8137b3;
+  color: #CD2840;
   background-color: #fff;
   border-radius: 500px;
 
@@ -351,4 +351,23 @@ body {
   .cres {
     display: none;
   }
+
+  .d-flex {
+    width: 250px;
+  }
+
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .music {
+    padding-top: 20px;
+    margin-top: 2px;
+  }
+
+  .ben {
+    font-size: 65px;
+  }
+   
 }
