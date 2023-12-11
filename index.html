@@ -31,6 +31,22 @@
 </head>
 <body>
 
+  <!-- <script>
+    // Modal
+
+    window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector("#exampleModal").style.display = "block";
+        },
+        1000
+    )
+}); 
+
+  </script>-->
+
+
+
   <!-- Barra de navegação -->
   <nav class="navbar navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
@@ -277,9 +293,16 @@
         </div>
       </div>
 
-        
 
-    <!-- <div id="openModal" class="modalDialog">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+      </button>
+
+
+
+
+    <div id="openModal" class="modalDialog" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div>
           <a href="#openModal" title="Close" class="closeModal"></a>
               Conteúdo do Modal
@@ -290,7 +313,7 @@
       </div>
     </div>
 
-    <div class="modal" tabindex="-1">
+    <div class="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -299,6 +322,26 @@
           </div>
           <div class="modal-body">
             <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <!-- Modal -->
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

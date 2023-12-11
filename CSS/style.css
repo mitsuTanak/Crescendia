@@ -58,7 +58,7 @@ body {
   top: 84%;
   left: 84%;
 
-  z-index: 1;
+  /* z-index: 1; */
 
 }
 
@@ -109,7 +109,7 @@ body {
 .wrapper {
   width: 99%;
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */
 }
 .wrapper i {
   top: 50%;
