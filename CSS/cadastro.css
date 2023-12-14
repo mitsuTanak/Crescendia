@@ -13,6 +13,17 @@ body{
   background: radial-gradient(ellipse at bottom, #1B2735 0%, #12141d 100%);
 }
 
+.cadastro {
+  color: red;
+}
+
+.cadastro-bg {
+  background-color: red !important;
+}
+.cadastro-bg:hover {
+  background-color: black !important;
+  color: red !important;
+}
 
 
 a:hover {
@@ -58,7 +69,7 @@ display: none;
   padding: 0;
   margin: 10px auto;
   cursor: pointer;
-  background-color: #976df2;
+  background-image: linear-gradient(90deg, #976df2, red);
 }
 .checkbox:checked + label:before,
 .checkbox:not(:checked) + label:before{
@@ -81,6 +92,7 @@ display: none;
 }
 .checkbox:checked + label:before {
   transform: translateX(44px) rotate(-270deg);
+  color: red;
 }
 .card-3d-wrap {
   position: relative;
