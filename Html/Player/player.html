@@ -7,40 +7,24 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="shortcut icon" href="../../assets/logo.png" type="image/x-icon">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
       
     </head>
 
     <body>
-      <div class="player" style="display: flex; justify-content: space-between; align-items: center;">
+
+        
+
+        <div class="player" style="display: flex; justify-content: space-between; align-items: center;">
         <a href="../../index.html"><i class="bi bi-caret-down-fill"></i></a>
       
         <div class="logo"></div>
         
         <span id="musicName"></span>
-        
-        <audio id="player" src=""></audio>
-        <div class="controls">
-            <button id="prevButton"><i class='bx bx-skip-previous'></i></button>
-            <button id="playPauseButton"><i class='bx bx-caret-right'></i></button>
-            <button id="nextButton"><i class='bx bx-skip-next'></i></button>
-        </div>
-    
-        <div style="margin-left: auto;">
-          <form>
-              <div class="rating">
-                  <input type='radio' hidden name='rate' id='rating_5' data-idx='0'>	
-                  <label for='rating_5'></label>
 
-                  <button id="execCopy"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
-                    <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
-                  </svg></button>
-              </div>
-          </form>
-
-
-            
-        </div>
-    
         <div class="footer">
             <div class="progress-bar">
                 <div class="progress"></div>
@@ -50,17 +34,38 @@
                 <span id="currentTime">0:00</span>
                 <span id="duration">0:00</span>
             </div>
+
+           
+                <div class="rating">
+  
+                    <a class="buttons__toggle"><i class="fa fa-share-alt"></i></a>
+                    
+  
+                    <input type='radio' hidden name='rate' id='rating_5' data-idx='0'>
+                    <label for='rating_5'></label>
+  
+                  
+                </div>             
+         
         </div>
+        
+        <audio id="player" src=""></audio>
+        <div class="controls">
+            <button id="prevButton"><i class='bx bx-skip-previous'></i></button>
+            <button id="playPauseButton"><i class='bx bx-caret-right'></i></button>
+            <button id="nextButton"><i class='bx bx-skip-next'></i></button>
+        </div>
+    
+        <div style="margin-left: auto;">
+
+        
+
+            
+        </div>
+    
+       
     </div>
 
-    <script>
-      // Type 1
-      document.getElementById('execCopy').addEventListener('click', execCopy);
-      function execCopy() {
-      document.querySelector("http://Crescendia.com").select();
-      document.execCommand("copy");
-      }
-    </script>
     
     <script type="module" src="script.js"></script>
     </body>
